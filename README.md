@@ -62,4 +62,4 @@ let userId = dataLayerVars['user_id'];
 Режим отладки скрипта включается автоматически вместе с 
 [отладкой Яндекс.Метрики](https://yandex.ru/support/metrica/general/check-goal.html). 
 В режиме отладки все свои действия скрипт выводит в консоль браузера. Чтобы включить режим отладки, просто добавьте в URL своего сайта параметр `_ym_debug=1`, например  
-https://example.com/?**_ym_debug=1**
+https://example.com/?_ym_debug=1
