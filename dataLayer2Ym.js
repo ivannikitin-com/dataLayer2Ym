@@ -6,7 +6,7 @@
     const DEBUG = /_ym_debug=1/.test(location.search);
 
     // Объект переменных dataLayer
-    window.dataLayerVars = {};
+    window.dataLayerVars = window.dataLayerVars || {};
 
     // Прокси на dataLayer
     window.dataLayer = new Proxy((window.dataLayer || []), {
